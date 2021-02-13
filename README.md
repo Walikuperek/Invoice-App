@@ -14,7 +14,6 @@ Node Express REST API for Invoice App
 * handlebars
 * jsonwebtoken
 * multer
-* mysql2
 * nodemailer
 * nodemailer-express-handlebars
 * nodemailer-express-handlebars-plaintext-inline-ccs
