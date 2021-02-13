@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-size: 17px;
+            padding: 40px 10px;
+            background: linear-gradient(192deg, rgba(173, 173, 171, 0.781) 0% 40%, rgb(231, 228, 228) 40% 80%, rgb(254, 202, 48) 80% 100%), linear-gradient(rgba(0.5, 0.5, 0.5, 0.5), rgba(0.5, 0.5, 0.5, 0.5));
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        p {
+            color: rgb(0, 0, 0);
+        }
+
+        .contact {
+            color: white;
+            padding: 20px 0;
+            z-index: -1;
+            width: 100%;
+
+            border-radius: 30px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 5px 10px;
+            margin: 32px;
+            opacity: 1;
+            border-radius: 4px;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        
+        .btn-warning {
+            background-color: rgb(48, 86, 254);
+            color: white;
+        }
+
+        h2 {
+            color: #111;
+        }
+
+        a {
+            font-size: 14px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #000000;
+            transition: 0.3s ease-in-out;
+        }
+
+        img {
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <img src="app/middleware/email/img/black-font-logo.png" width="auto" height="128" style="margin: 13px auto;">
+        <p>
+            Użytkownik <h3> {{ name }}!</h3><br />
+            Konto zostało zarejestrowane w bazie danych!
+        </p>
+
+        <div style="background:rgba(0.5, 0.5, 0.5, 0.1); padding: 20px; border-radius: 20px; margin-bottom: 40px;">
+        <hr>
+            <p>
+                Login: {{ login }}
+            </p>
+            <p>
+                Hasło: {{ password }}
+            </p>
+        <hr>
+        </div>
+
+
+        <span class="btn btn-warning">
+            <a href="https://example.com/login">Zaloguj się</a>
+        </span>
+
+
+        <div class="contact">
+            <name>
+                <a href="https://example.com/home">creativo.xaa.pl</a>
+            </name>
+        </div>
+    </div>
+
+</body>
+
+</html>
