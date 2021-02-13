@@ -1,6 +1,11 @@
 # InvoiceAppBackend
 Node Express REST API for Invoice App 
 
+
+## THIS CODE TO WORK REQUIRE ADDING models
+#### *model is Sequelize ORM structure in DB
+
+
 ###### invoices are based on chosen products 
 ###### upload .xslx format data as moderator &rarr; database update.
 
